@@ -3,11 +3,95 @@
 <head>
   <meta charset="UTF-8">
   <title>Book Library</title>
-  <link rel="stylesheet" href="styles.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      background-color: #f5f5f5;
+      font-family: Arial, sans-serif;
+      min-height: 100vh;
+      width: 100%;
+    }
+
+    /* Full-page book library container */
+    .book-library {
+      background-color: #ffffff;
+      min-height: 100vh;
+      width: 100%;
+      padding: 40px 20px;
+    }
+
+    /* Heading and divider */
+    .book-library h2 {
+      text-align: center;
+      margin-top: 0;
+      color: #333;
+      font-size: 28px;
+    }
+
+    .book-library hr {
+      border: none;
+      border-top: 2px solid #e0e0e0;
+      width: 80%;
+      margin: 10px auto 30px;
+    }
+
+    /* Book block styling - FULL WIDTH */
+    .book {
+      border-bottom: 4px solid #2ecc71;
+      padding: 25px;
+      margin: 0 auto 25px;
+      width: 100%; /* Changed from 320px to 100% */
+      max-width: 100%; /* Ensure it doesn't exceed container */
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    /* Center the image */
+    .book img {
+      display: block;
+      margin: 0 auto;
+      width: 180px;
+      height: 240px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    /* Left-align text */
+    .book h3 {
+      text-align: left;
+      margin: 15px 0 5px;
+      color: #333;
+    }
+
+    .author {
+      color: #777777;
+      margin: 5px 0;
+      text-align: left;
+    }
+
+    /* Price styling - positioned between author and bottom */
+   .price {
+      background-color: #2ecc71;
+      color: white;
+      padding: 12px 15px;
+      border-radius: 3px;
+      display: block; /* Changed from inline-block to block */
+      font-weight: bold;
+      margin-top: 15px;
+      width: 100%; /* Full width */
+      text-align: center; /* Center text inside the full-width price */
+    }
+  </style>
 </head>
 <body>
   <div class="book-library">
-    <h3>Book Library</h3>
+    <h2>Book Library</h2>
+    <hr>
 
     <div class="book">
       <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Spy-in-the-Amber-by-Manohar-Malgonkar.jpg" alt="Spy in the Amber">
@@ -31,4 +115,4 @@
     </div>
   </div>
 </body>
-</html>
+</html>v
