@@ -1,70 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Book Library</title>
-  <style>
-    body {
-      background-color: #f8f8f8;
-      font-family: Arial, sans-serif;
-    }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Library</title>
+    <style>
+      body {
+        background-color: #f8f8f8;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
 
-    .book-library {
-      background-color: #ffffff;
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      padding: 20px;
-    }
+      .book-library {
+        background-color: #ffffff;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 20px;
+      }
 
-    .book {
-      width: 250px;
-      text-align: center;
-      margin: 20px;
-    }
+      .book {
+        width: 250px;
+        text-align: center;
+        margin: 20px;
+        background-color: #ffffff;
+      }
 
-    .book img {
-      width: 100%;
-      height: auto;
-    }
+      .book img {
+        width: 100%;
+        height: auto;
+      }
 
-    .book h3 {
-      margin: 10px 0 5px 0;
-    }
+      .book h3 {
+        margin: 10px 0 5px;
+        font-size: 18px;
+      }
 
-    .book .author {
-      color: #777777;
-      margin-bottom: 5px;
-    }
+      .book .author {
+        color: #777777;
+        font-size: 14px;
+        margin-bottom: 5px;
+      }
 
-    .book .price {
-      color: #2ecc71;
-    }
-  </style>
-</head>
-<body>
-  <div class="book-library">
-    <div class="book">
-      <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Spy-in-the-Amber-by-Manohar-Malgonkar.jpg" alt="Spy in the Amber">
-      <h3>Spy in the Amber</h3>
-      <p class="author">Manohar Malgonkar</p>
-      <p class="price">₹350</p>
+      .book .price {
+        color: #2ecc71;
+        font-size: 16px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="book-library">
+      <div class="book">
+        <img
+          src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Spy-in-the-Amber-by-Manohar-Malgonkar.jpg"
+          alt="Spy in the Amber"
+        />
+        <h3>Spy in the Amber</h3>
+        <p class="author">Manohar Malgonkar</p>
+        <p class="price">₹350</p>
+      </div>
+
+      <div class="book">
+        <img
+          src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Sacred-Games-by-Vikram-Chandra.jpg"
+          alt="Sacred Games"
+        />
+        <h3>Sacred Games</h3>
+        <p class="author">Vikram Chandra</p>
+        <p class="price">₹499</p>
+      </div>
+
+      <div class="book">
+        <img
+          src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Byomkesh-Bakshi-by-Sharadindu-Bandyopadhyay.jpg"
+          alt="Byomkesh Bakshi"
+        />
+        <h3>Byomkesh Bakshi</h3>
+        <p class="author">Sharadindu Bandyopadhyay</p>
+        <p class="price">₹299</p>
+      </div>
     </div>
-
-    <div class="book">
-      <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Sacred-Games-by-Vikram-Chandra.jpg" alt="Sacred Games">
-      <h3>Sacred Games</h3>
-      <p class="author">Vikram Chandra</p>
-      <p class="price">₹499</p>
-    </div>
-
-    <div class="book">
-      <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Byomkesh-Bakshi-by-Sharadindu-Bandyopadhyay.jpg" alt="Byomkesh Bakshi">
-      <h3>Byomkesh Bakshi</h3>
-      <p class="author">Sharadindu Bandyopadhyay</p>
-      <p class="price">₹299</p>
-    </div>
-  </div>
-</body>
+  </body>
 </html>
