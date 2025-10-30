@@ -12,10 +12,16 @@
         padding: 0;
       }
 
+      h1 {
+        text-align: center;
+        padding: 20px 0;
+      }
+
       .book-library {
         background-color: #ffffff;
         display: flex;
-        justify-content: center; 
+        flex-wrap: wrap;
+        justify-content: center;
         gap: 20px;
         padding: 20px;
       }
@@ -45,14 +51,17 @@
         margin-bottom: 5px;
       }
 
-      .book .price {
+      .book .price-block {
         color: #2ecc71;
         font-size: 16px;
         font-weight: bold;
       }
     </style>
   </head>
+
   <body>
+    <h1>Book Library</h1>
+
     <div class="book-library">
       <div class="book">
         <img
@@ -61,7 +70,7 @@
         />
         <h3>Spy in the Amber</h3>
         <p class="author">Manohar Malgonkar</p>
-        <p class="price">Rs. 350</p>
+        <p class="price-block">Rs. 350</p>
       </div>
 
       <div class="book">
@@ -71,7 +80,7 @@
         />
         <h3>Sacred Games</h3>
         <p class="author">Vikram Chandra</p>
-        <p class="price">Rs. 499</p>
+        <p class="price-block">Rs. 499</p>
       </div>
 
       <div class="book">
@@ -81,7 +90,7 @@
         />
         <h3>Byomkesh Bakshi</h3>
         <p class="author">Sharadindu Bandyopadhyay</p>
-        <p class="price">Rs. 299</p>
+        <p class="price-block">Rs. 299</p>
       </div>
     </div>
   </body>
