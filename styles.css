@@ -16,7 +16,7 @@ h1 {
 /* Library container */
 .book-library {
   background-color: #ffffff;
-  width: 320px;
+  width: 340px;
   margin: 0 auto;
   padding: 20px;
   border-radius: 8px;
@@ -29,6 +29,7 @@ h1 {
   border-radius: 5px;
   margin-bottom: 20px;
   padding: 10px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Book image */
@@ -47,7 +48,7 @@ h1 {
 
 /* Author text */
 .author {
-  color: #777777; /* required author color */
+  color: rgb(119, 119, 119);
   font-size: 14px;
   margin-bottom: 10px;
 }
@@ -56,7 +57,8 @@ h1 {
 .price {
   background-color: rgb(46, 204, 113);
   border-radius: 5px;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 10px;
   display: inline-block;
+  font-weight: bold;
 }
