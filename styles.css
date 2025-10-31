@@ -54,9 +54,9 @@ h1 {
 
 /* Price block */
 .price {
-  background-color: rgb(46, 204, 113); /* ✅ matches test expectation exactly */
-  color: rgb(255, 255, 255); /* pure white text */
-  padding: 8px 0;
-  font-weight: bold;
-  border-radius: 3px;
+  background-color: rgb(46, 204, 113);
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  display: inline-block;
 }
